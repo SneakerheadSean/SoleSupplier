@@ -1,4 +1,4 @@
-ul {
+.nav {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
@@ -35,6 +35,14 @@ li a:hover {
 
 img {
   display: block;
-  width: 85vw;
   height:44vh ;
+}
+
+.facts {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
 }
